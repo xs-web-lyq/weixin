@@ -1,0 +1,46 @@
+.person {
+  background:gray;
+}
+.person-name{
+  position: relative;
+  display:flex;
+  width:750rpx;
+  height:200rpx;
+  line-height: 200rpx;
+  background:white;
+  padding: 20rpx 30rpx;
+}
+.person-name-img {
+  position:absolute;
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin:0 20rpx;
+  top:60rpx;
+}
+.person-name-content {
+  width:400rpx;
+  height:200rpx;
+  line-height:200rpx;
+  margin-left:200rpx;
+}
+.person-name-icon {
+  flex:1;
+}
+.person-content{
+  background:white;
+}
+.person-content-infos{
+
+  border-bottom: 1px solid rgb(228, 220, 220);
+  padding:20rpx 20rpx;
+  height:40rpx; 
+  line-height: 40rpx;
+}
+.person-content-img{
+  width:30rpx;
+  height:30rpx;
+}
+.person-content-msg{
+  margin-left:20rpx;
+}

@@ -1,0 +1,38 @@
+<view class="header">
+  <input
+    type="text"
+    class="header-input"
+    placeholder="AngularJS·MySQL·Java"
+    placeholder-class="header-input-placeholder"
+    bindinput="handleInputChange"
+  />
+  <icon
+    type="search"
+    class="header-input-icon"
+    size="13"
+    wx:if="{{showIcon}}"
+  />
+</view>
+<view class="navigator">
+  <view
+    wx:for="{{tabs}}"
+    wx:key="type"
+    class="navigator-item"
+    data-type="{{item.type}}"
+    bindtap="changeType"
+  >
+    <image
+      class="navigator-img"
+      src="../../resources/{{item.type}}.png"
+    />
+    {{item.name}}
+    <view 
+      hidden="{{type !== item.type}}"
+      class="navigator-acitve navigator-active-{{item.type}}"
+    />
+  </view>
+</view>
+<include src="./recommend.wxml" />
+<include src="./activity.wxml" />
+<include src="./project.wxml"/>
+<include src="./path.wxml" />

@@ -1,0 +1,35 @@
+.detail {
+  margin-top:20rpx;
+}
+.detail-item {
+  position:relative;
+}
+.detail-item-img {
+  width:100%;
+  border-radius: 12rpx;
+}
+.detail-item-content {
+  display:flex;
+  position:absolute;
+  top:483rpx;
+  width:100%;
+  height:100rpx;
+  background:red;
+  color:white;
+}
+.detail-item-price {
+  width:200rpx;
+  font-size:70rpx;
+}
+.detail-item-sales {
+  flex:1;
+  position: absolute;
+  font-size:30rpx;
+  bottom: 30rpx;
+  right:50rpx;
+}.detail-item-notice {
+  font-size:20rpx;
+}
+.detail-item-title {
+  margin-top:60rpx;
+}

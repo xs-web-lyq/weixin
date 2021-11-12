@@ -1,0 +1,14 @@
+<view class="detail">
+    <view class="datail-item">
+      <image class="detail-item-img" src="{{courses[ids-1].imgUrl}}" />
+      <view class="detail-item-content">
+        <text class="detail-item-price">￥{{courses[ids-1].price}}</text>
+        <text 
+        class="detail-item-notice"
+        wx:if="{{courses[ids-1].notice}}">
+        {{courses[ids-1].notice}}</text>
+        <text class="detail-item-sales">月售{{courses[ids-1].sales}}+</text>
+      </view>
+      <view class="detail-item-title" >{{courses[ids-1].title}}</view>
+    </view>
+</view>

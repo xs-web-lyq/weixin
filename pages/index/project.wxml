@@ -1,0 +1,8 @@
+<block wx:if="{{type === 'project'}}">
+  <image
+    class="projects-item"
+    wx:for="{{projects}}"
+    wx:key="imgUrl"
+    src="{{item.imgUrl}}"
+  ></image>
+</block>
